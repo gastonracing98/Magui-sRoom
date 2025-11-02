@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{807C45C2-22CE-685D-C802-3CF6E7B917DA}|Assembly-CSharp.csproj|c:\\users\\enrique\\downloads\\magui-sroom\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{807C45C2-22CE-685D-C802-3CF6E7B917DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{807C45C2-22CE-685D-C802-3CF6E7B917DA}|Assembly-CSharp.csproj|c:\\users\\enrique\\downloads\\magui-sroom\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{807C45C2-22CE-685D-C802-3CF6E7B917DA}|Assembly-CSharp.csproj|C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{807C45C2-22CE-685D-C802-3CF6E7B917DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{807C45C2-22CE-685D-C802-3CF6E7B917DA}|Assembly-CSharp.csproj|c:\\users\\enrique\\downloads\\magui-sroom\\assets\\scripts\\arduinocomms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{807C45C2-22CE-685D-C802-3CF6E7B917DA}|Assembly-CSharp.csproj|C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{807C45C2-22CE-685D-C802-3CF6E7B917DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{807C45C2-22CE-685D-C802-3CF6E7B917DA}|Assembly-CSharp.csproj|C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\assets\\scripts\\arduinocomms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{807C45C2-22CE-685D-C802-3CF6E7B917DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arduinocomms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,19 +51,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Shaders\\Lit.shader",
+              "ToolTip": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Shaders\\Lit.shader",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-11-02T22:47:55.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "PlayerScript.cs",
               "DocumentMoniker": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScript.cs",
               "ToolTip": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerScript.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAkwC0AAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-02T19:16:10.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Assets\\Scripts\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
@@ -67,12 +84,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T19:08:13.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T19:08:13.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ArduinoComms.cs",
               "DocumentMoniker": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Assets\\Scripts\\ArduinoComms.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ArduinoComms.cs",
@@ -80,12 +96,11 @@
               "RelativeToolTip": "Assets\\Scripts\\ArduinoComms.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T18:22:35.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T18:22:35.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ComfortAnalyzer.cs",
               "DocumentMoniker": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Assets\\Scripts\\ComfortAnalyzer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ComfortAnalyzer.cs",
@@ -97,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Assets\\Scripts\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",

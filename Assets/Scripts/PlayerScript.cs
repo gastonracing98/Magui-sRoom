@@ -3,17 +3,17 @@ using UnityEngine;
 
 public class PLayerScript : MonoBehaviour
 {
-    private float speed = 125f;
+    private float speed = 150f;
     public float MinSpeed = 50f;
     public float MaxSpeed = 200f;
 
-    public float jumpForce = 125f;
+    public float jumpForce = 25f;
 
     public bool isGrounded;
     private Rigidbody rb;
 
     //camara
-    public float Sensibility = 100f;
+    public float Sensibility = 90f;
     public float LimitX = 45;
     public Transform cam;
 
@@ -51,11 +51,16 @@ public class PLayerScript : MonoBehaviour
             }
 
             //camara
+            
+            rotationY = Input.GetAxis("Mouse Y") * Sensibility * Time.deltaTime;
+            rotationX += -rotationY;
 
-            rotationX = -Input.GetAxis("Mouse Y") * Sensibility;
             rotationX = Mathf.Clamp(rotationX, -LimitX, LimitX);
-            cam.localRotation = Quaternion.Euler(-rotationX, 0, 0);
-            transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * Sensibility, 0);
+            cam.localRotation = Quaternion.Euler(rotationX, 0, 0);
+
+           
+            rotationX = Input.GetAxis("Mouse X") * Sensibility * Time.deltaTime;
+            transform.rotation *= Quaternion.Euler(0, rotationX, 0);
         }
         //Pausa
         if(Input.GetKeyDown(KeyCode.Escape))
