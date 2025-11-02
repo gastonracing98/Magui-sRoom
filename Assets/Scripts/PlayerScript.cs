@@ -31,30 +31,39 @@ public class PLayerScript : MonoBehaviour
     {
       float x= Input.GetAxis("Horizontal");
       float y = Input.GetAxis("Vertical");
-
-        if(Input.GetKey(KeyCode.LeftShift))
+        if (Time.timeScale > 0)
         {
-            speed = MaxSpeed;
+
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                speed = MaxSpeed;
+            }
+            else
+            {
+                speed = MinSpeed;
+            }
+
+            transform.Translate(new Vector3(x, 0, y) * Time.deltaTime * speed);
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Jump();
+            }
+
+            //camara
+
+            rotationX = -Input.GetAxis("Mouse Y") * Sensibility;
+            rotationX = Mathf.Clamp(rotationX, -LimitX, LimitX);
+            cam.localRotation = Quaternion.Euler(-rotationX, 0, 0);
+            transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * Sensibility, 0);
         }
-        else
+        //Pausa
+        if(Input.GetKeyDown(KeyCode.Escape))
         {
-            speed = MinSpeed;
+   
+                UIManager.inst.ShowPauseScreen();
+            
         }
-
-        transform.Translate(new Vector3(x, 0, y)*Time.deltaTime*speed);
-
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            Jump();
-        }
-
-        //camara
-
-        rotationX = -Input.GetAxis("Mouse Y") * Sensibility ;
-        rotationX = Mathf.Clamp(rotationX, -LimitX, LimitX);
-        cam.localRotation = Quaternion.Euler(-rotationX, 0, 0);
-        transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * Sensibility, 0);
-
     }
 
     public void Jump()
