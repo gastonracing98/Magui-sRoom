@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{807C45C2-22CE-685D-C802-3CF6E7B917DA}|Assembly-CSharp.csproj|C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{807C45C2-22CE-685D-C802-3CF6E7B917DA}|Assembly-CSharp.csproj|c:\\users\\enrique\\downloads\\magui-sroom\\assets\\import\\simpsons_family_house__full_interior\\license.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{807C45C2-22CE-685D-C802-3CF6E7B917DA}|Assembly-CSharp.csproj|solutionrelative:assets\\import\\simpsons_family_house__full_interior\\license.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{807C45C2-22CE-685D-C802-3CF6E7B917DA}|Assembly-CSharp.csproj|c:\\users\\enrique\\downloads\\magui-sroom\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{807C45C2-22CE-685D-C802-3CF6E7B917DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "license.txt",
+              "DocumentMoniker": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Assets\\Import\\Simpsons_Family_House__Full_Interior\\license.txt",
+              "RelativeDocumentMoniker": "Assets\\Import\\Simpsons_Family_House__Full_Interior\\license.txt",
+              "ToolTip": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Assets\\Import\\Simpsons_Family_House__Full_Interior\\license.txt",
+              "RelativeToolTip": "Assets\\Import\\Simpsons_Family_House__Full_Interior\\license.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-06T22:46:14.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Lit.shader",
               "DocumentMoniker": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Shaders\\Lit.shader",
@@ -58,12 +75,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@e1fa89d1f997\\Shaders\\Lit.shader",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-11-02T22:47:55.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T22:47:55.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerScript.cs",
               "DocumentMoniker": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScript.cs",
@@ -76,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Assets\\Scripts\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
@@ -88,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ArduinoComms.cs",
               "DocumentMoniker": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Assets\\Scripts\\ArduinoComms.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ArduinoComms.cs",
@@ -100,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ComfortAnalyzer.cs",
               "DocumentMoniker": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Assets\\Scripts\\ComfortAnalyzer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ComfortAnalyzer.cs",
@@ -112,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\Enrique\\Downloads\\Magui-sRoom\\Assets\\Scripts\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",

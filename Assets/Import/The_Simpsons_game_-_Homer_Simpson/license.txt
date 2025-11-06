@@ -1,0 +1,11 @@
+Model Information:
+* title:	The Simpsons game - Homer Simpson
+* source:	https://sketchfab.com/3d-models/the-simpsons-game-homer-simpson-68fcaf80a2f3459daf7d1db09890eeca
+* author:	Jacxx2 (https://sketchfab.com/Jacxx2)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "The Simpsons game - Homer Simpson" (https://sketchfab.com/3d-models/the-simpsons-game-homer-simpson-68fcaf80a2f3459daf7d1db09890eeca) by Jacxx2 (https://sketchfab.com/Jacxx2) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

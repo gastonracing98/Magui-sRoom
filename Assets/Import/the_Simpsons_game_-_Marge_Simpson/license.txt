@@ -1,0 +1,11 @@
+Model Information:
+* title:	the Simpsons game - Marge Simpson
+* source:	https://sketchfab.com/3d-models/the-simpsons-game-marge-simpson-0a68f143b557417ca8fb2e554990514a
+* author:	Jacxx2 (https://sketchfab.com/Jacxx2)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "the Simpsons game - Marge Simpson" (https://sketchfab.com/3d-models/the-simpsons-game-marge-simpson-0a68f143b557417ca8fb2e554990514a) by Jacxx2 (https://sketchfab.com/Jacxx2) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
