@@ -18,7 +18,9 @@ public class PLayerScript : MonoBehaviour
     public Transform cam;
 
     private float rotationX;
-    private float rotationY;
+    // private float rotationY;
+    [Header("Interaction")]
+    public float maxInteractionDistance = 160f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,8 +31,8 @@ public class PLayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      float x= Input.GetAxis("Horizontal");
-      float y = Input.GetAxis("Vertical");
+        float x = Input.GetAxis("Horizontal");
+        float y = Input.GetAxis("Vertical");
         if (Time.timeScale > 0)
         {
 
@@ -51,23 +53,39 @@ public class PLayerScript : MonoBehaviour
             }
 
             //camara
-            
-            rotationY = Input.GetAxis("Mouse Y") * Sensibility * Time.deltaTime;
-            rotationX += -rotationY;
 
+            // 1. Rotación Vertical de la Cámara (Arriba/Abajo) - Eje X
+            float mouseInputY = Input.GetAxis("Mouse Y") * Sensibility * Time.deltaTime;
+            // Acumular la rotación vertical. El signo negativo corrige la dirección natural del mouse.
+            rotationX -= mouseInputY;
+
+            // Limitar la rotación vertical (mirar hacia el cielo/suelo)
             rotationX = Mathf.Clamp(rotationX, -LimitX, LimitX);
+
+            // Aplicar la rotación a la cámara (localmente, solo en el Eje X)
             cam.localRotation = Quaternion.Euler(rotationX, 0, 0);
 
-           
-            rotationX = Input.GetAxis("Mouse X") * Sensibility * Time.deltaTime;
-            transform.rotation *= Quaternion.Euler(0, rotationX, 0);
-        }
-        //Pausa
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-   
+            // 2. Rotación Horizontal del Jugador (Izquierda/Derecha) - Eje Y
+            float mouseInputX = Input.GetAxis("Mouse X") * Sensibility * Time.deltaTime;
+
+            // Aplicar la rotación al cuerpo del jugador (transform.rotation)
+            // Esto permite que el jugador gire y, por ende, su eje Z (adelante) cambie.
+            transform.rotation *= Quaternion.Euler(0, mouseInputX, 0);
+
+            //Pausa
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+
                 UIManager.inst.ShowPauseScreen();
-            
+
+            }
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Interact();
+            }
+            Transform switchTransform = GameObject.Find("Swtich").transform; // Solo si el nombre es exactamente "Swtich"
+            float distance = Vector3.Distance(transform.position, switchTransform.position);
+            Debug.Log("Distancia al Switch: " + distance);
         }
     }
 
@@ -89,4 +107,26 @@ public class PLayerScript : MonoBehaviour
             isGrounded = false;
         }
     }
+    void Interact()
+    {
+        if (cam == null) return;
+        // Dispara un rayo desde el centro de la cámara
+        Ray ray = new Ray(cam.position, cam.forward);
+        Debug.DrawRay(cam.position, cam.forward * maxInteractionDistance, Color.red, 0.1f);
+        RaycastHit hit;
+
+        // Si el rayo golpea algo dentro de la distancia de interacción:
+        if (Physics.Raycast(ray, out hit, maxInteractionDistance))
+        {
+            // 1. Verificar si el objeto golpeado tiene el script ControlLuz
+            ControlLight lightControl = hit.collider.GetComponent<ControlLight>();
+
+            // 2. Si lo tiene, llamar al método para alternar la luz
+            if (lightControl != null)
+            {
+                lightControl.AlternarLuz();
+            }
+        }
+    }
 }
+
